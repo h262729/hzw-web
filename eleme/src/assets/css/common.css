@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'Helvetica Neue',Tahoma,Arial,PingFangSC-Regular,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+}
+body{
+    color: #333;
+    -webkit-overflow-scrolling: touch;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+body.dialog-open{
+    width: 100%;
+    position: fixed;
+}
+ul li{
+    list-style: none;
+}
+.icon {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: -0.2em;
+    fill: currentColor;
+    overflow: hidden;
+}
+

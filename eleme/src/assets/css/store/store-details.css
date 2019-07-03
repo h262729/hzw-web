@@ -1,0 +1,117 @@
+.store-details{
+    font-family: PingFang SC,Helvetica Neue,Arial,sans-serif;
+}
+/* 顶部区域 */
+.store-header{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(0deg,hsla(0,0%,100%,0),rgba(0,0,0,.5)), url("/images-app/store-info/store.webp") center;
+}
+.store-header > span{
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    display: flex;
+    align-items: center;
+}
+.store-header > span > svg{
+    font-size: 16px;
+    color: #fff;
+}
+.store-header > div{
+    height: 75px;
+    width: 75px;
+    position: relative;
+    bottom: -50px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.store-header > div > img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 店铺信息 */
+.store-main-info{
+    margin-top: 10px;
+    padding: 0 20px;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+.store-main-info > div:nth-last-child(2){
+    margin: 5px auto;
+}
+.store-main-info-name > h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.store-main-info-other > span{
+    margin-right: 5px;
+    color: #666;
+}
+.store-main-info-activity{
+    color: #333;
+    display: inline-flex;
+}
+.store-main-info-activity > span:nth-child(1){
+    font-size: 8px;
+    background: rgb(240, 115, 115);
+    color: #fff;
+}
+.store-main-info-activity > span:nth-child(2){
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.store-main-info-activity svg{
+    font-size: 9px;
+    color: #999;
+    transform: rotate(-90deg);
+}
+.store-main-info-notice{
+    color: #999;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* 信息选项卡 */
+.store-tab{
+    height: 40px;
+    margin-top: 10px;
+    background: #fff;
+    border-bottom: 1PX solid #eee;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.store-tab > ul{
+    height: 100%;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+.store-tab > ul > li{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.store-tab > ul > li > span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store-tab > ul > li  .activate{
+    font-weight: bold;
+    border-bottom: 1px solid rgb(35, 149, 255);
+}
+

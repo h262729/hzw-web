@@ -1,0 +1,243 @@
+/* 店铺菜单信息 */
+.store-menu-info{
+}
+.store-advert{
+    padding: 0 10px;
+    margin-top: 10px;
+}
+.store-advert > a > img{
+    width: 100%;
+    height: 85px;
+    border-radius: 5px;
+}
+.store-recommend{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.store-recommend > p{
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.store-recommend > ul{
+    padding: 5px 0;
+    margin-top: 10px;
+    display: flex;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.store-recommend > ul::-webkit-scrollbar{
+    display: none;
+}
+.store-recommend-item{
+    width: 120px;
+    padding: 0 5px;
+}
+.store-recommend-item:first-child{
+    padding-left: 10px;
+}
+.store-recommend-item:last-child{
+    padding-right: 10px;
+}
+.store-recommend-item > img{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.store-recommend-item > div > p{
+    padding-top: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.store-recommend-item > div > p:nth-child(1){
+    font-size: 16px;
+    color: #333333;
+}
+.store-recommend-item > div > p:nth-child(2){
+    font-size: 10px;
+    color: #999;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.store-recommend-item > div > p:nth-child(2) > span{
+    padding-right: 5px;
+}
+.recommend-goods-price{
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+}
+.recommend-goods-price > span{
+    flex-grow: 1;
+    font-size: 16px;
+    color: rgb(255, 83, 57);
+}
+.recommend-goods-price > span:nth-child(2){
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.recommend-goods-price > span:nth-child(2) > a > svg{
+    font-size: 14px;
+    color: rgb(35, 149, 255);
+}
+.recommend-goods-price > span:nth-child(2) > span{
+    width: 25px;
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 商品列表 */
+.store-menu{
+    width: 100%;
+    height: 93%;
+    display: flex;
+}
+/* -- 商品列表侧边栏分类 */
+.store-menu-aside{
+    width: 30%;
+    height: 100%;
+    background: #f8f8f8;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.store-menu-aside::-webkit-scrollbar{
+    display: none;
+}
+.store-menu-aside > ul{
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.store-menu-aside > ul > li{
+    padding: 20px 5px;
+    font-size: 12px;
+    color: #666;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store-menu-aside > ul > .activate{
+    background: #fff;
+}
+
+/* -- 商品列表信息 */
+.store-menu-list{
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+.store-menu-list > dl:last-child{
+    margin-bottom: 50px;
+}
+.store-menu-list::-webkit-scrollbar{
+    display: none;
+}
+.store-menu-list > dl{
+    flex: none;
+    display: flex;
+    flex-direction: column;
+}
+.store-menu-list > dl > dt{
+    height: 30px;
+    line-height: 30px;
+}
+.store-menu-list > dl > dt > p > strong{
+    font-size: 14px;
+}
+.store-menu-list > dl > dt > p > span{
+    font-size: 10px;
+    color: #999;
+    margin-left: 5px;
+}
+.store-menu-list > dl > dd{
+    margin-bottom: 10px;
+    display: flex;
+    position: relative;
+}
+.goods-img{
+    height: 95px;
+    width: 95px;
+    flex: none;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.goods-img > img{
+    width: 100%;
+}
+.goods-info{
+    padding-left: 10px;
+    font-size: 10px;
+    color: #999;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.goods-info > p{
+    width: 170px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.goods-info-name{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+.goods-info-sales > span{
+    padding-right: 5px;
+}
+.goods-info-activity{
+    color: rgb(255, 83, 57);
+}
+.goods-info-activity > span:first-child{
+    padding: 1px;
+    margin-right: 5px;
+    font-size: 8px;
+    border: 1PX solid rgb(255, 83, 57);
+}
+.goods-info-price > span:first-child{
+    font-size: 16px;
+    color: rgb(255, 83, 57);
+    padding-right: 5px;
+}
+.goods-info-price > del{
+    font-size: 14px;
+    color: #999;
+}
+.goods-info-price > span:last-child{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.goods-info-price > span:last-child > span{
+    width: 25px;
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.goods-info-price > span:last-child > a > svg{
+    font-size: 16px;
+    color: rgb(35, 149, 255);
+}

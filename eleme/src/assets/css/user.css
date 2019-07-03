@@ -1,0 +1,96 @@
+.user{
+    height: 100%;
+    width: 100%;
+    background: #f5f5f5;
+    position: absolute;
+}
+/* 顶部区域 */
+.user-header{
+    height: 80px;
+    padding: 20px;
+    color: #fff;
+    background: linear-gradient(to right, #0af, #0085ff);
+    display: flex;
+    align-items: center;
+}
+.user-header > div:nth-child(1){
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.user-header > div:nth-child(2){
+    flex-grow: 1;
+    margin-left: 10px;
+}
+.user-header > div:nth-child(2) > p:nth-child(1){
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.user-header > div:nth-child(2) > p:nth-child(2){
+    font-size: 14px;
+}
+.user-header > div:nth-child(2) > p:nth-child(2) > svg{
+    font-size: 12px;
+}
+.user-header > div:last-child{
+    transform: rotate(180deg);
+}
+
+/* 用户信息区域 */
+.user-info{
+    height: 80px;
+    display: flex;
+    font-size: 14px;
+    color: #666;
+    background: #fff;
+    border-bottom: 0.5px solid #ccc;
+}
+.user-info > a:first-child{
+    border-right: 0.5px solid #ccc;
+}
+.user-info > a{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.user-info-item-1 > p:nth-child(1) {
+    color: red;
+}
+.user-info-item-2 > p:nth-child(1) {
+    color: green;
+}
+.user-info-item-1 strong,
+.user-info-item-2 strong{
+    font-size: 24px;
+}
+
+/* 其它信息杂项 */
+.other-info{
+    margin-top: 10px;
+    color: #666;
+    background: #fff;
+    border-top: 0.5px solid #ccc;
+}
+.other-info-item{
+    height: 50px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid #ccc;
+}
+.other-info-item > p:nth-child(1){
+    flex-grow: 1;
+    font-size: 16px;
+}
+.other-info-item > p:nth-child(1) > svg{
+    margin-right: 5px;
+    font-size: 12px;
+    color: #0af;
+}
+.other-info-item > p:nth-child(2){
+    transform: rotate(180deg);
+}

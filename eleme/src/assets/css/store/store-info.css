@@ -1,0 +1,139 @@
+/* 商店信息 */
+.store-info{
+    font-family: PingFang SC,Helvetica Neue,Arial,sans-serif;
+    background: #f5f5f5;
+    padding-bottom: 10px;
+}
+.store-info > div{
+    background: #fff;
+    font-size: 14px;
+    color: #666;
+}
+/* 商店品牌信息 */
+.store-brand-info{
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+.store-brand-info > img{
+    width: 100%;
+    margin: 10px 0;
+}
+.store-brand-info > h3{
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.store-brand-info > p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.store-brand-info > div{
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 商店配送信息 */
+.store-delivery{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.store-delivery > h3{
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.store-delivery > p{
+    font-size: 14px;
+}
+
+/* 商家实景 */
+.store-img{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.store-img > h3{
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.store-img > div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.store-img > div > a{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    margin-top: 5px;
+    position: relative;
+}
+.store-img > div > a > img{
+    width: 100%;
+    height: 100%;
+}
+.store-img > div > a > span{
+    width: 100%;
+    height: 20px;
+    font-size: 12px;
+    color: #fff;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* 商家信息内容 */
+.store-info-content{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.store-info-content > h3{
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.store-info-content > ul{
+    display: flex;
+    flex-direction: column;
+}
+.store-info-content > ul > li{
+    padding: 10px 0;
+    border-top: 1PX solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.store-info-content > ul > li > span{
+    font-size: 14px;
+}
+.store-info-content > ul > li > span:first-child{
+    font-weight: bold;
+    flex: none;
+}
+.store-info-content > ul > li > span:last-child{
+    text-align: right;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.store-info-content > ul > li > span:last-child > svg{
+    font-size: 10px;
+    color: #ccc;
+    transform: rotate(180deg);
+    flex: none;
+}
+
